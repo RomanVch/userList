@@ -1,0 +1,44 @@
+@import './src/index';
+
+.userWrapper {
+    display: flex;
+    margin-bottom: 1em;
+    background-color: $white;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    justify-content: space-between;
+  .userInfo {
+    padding-left: 1em;
+    width: 100%;
+    cursor: pointer;
+    .name {
+      color: $secondary-color;
+      font-size: 1.2em;
+      font-weight: 600;
+      font-family: $serif;
+      .label {
+        font-weight: 800;
+      }
+      .highlight {
+        color: green;
+      }
+    }
+  }
+  .userName,
+  .email {
+    font-size: .9em;
+    font-family: $sans-serif;
+    color: $dark-gray;
+    .label {
+      font-weight: 800;
+    }
+    .highlight {
+      color: green;
+    }
+  }
+}
+
+.highlight {
+  color: #ff0000;
+  background: $secondary-color;
+}

@@ -1,0 +1,17 @@
+@import './src/index';
+
+.button {
+  display: inline-block;
+  background-color: $blue;
+  padding: 0 2em;
+  border: none;
+  border-radius: $radius;
+  color: $white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1em;
+  &:hover {
+    box-shadow: $shadow;
+    background-color: #14679e;
+  }
+}

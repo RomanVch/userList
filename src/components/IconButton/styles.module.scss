@@ -1,0 +1,16 @@
+@import './src/index';
+
+.iconButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  border-radius:$radius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    box-shadow: $shadow ;
+  }
+}
